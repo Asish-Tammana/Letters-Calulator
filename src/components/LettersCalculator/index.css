@@ -1,0 +1,44 @@
+.bg-container {
+  height: 100vh;
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading {
+  color: #ffffff;
+}
+
+.cal-img {
+  height: 450px;
+  width: 50%;
+}
+
+.input-box {
+  background-color: transparent;
+  border: 1px solid #e4e7eb;
+  border-radius: 5px;
+  padding: 7px;
+  width: 100%;
+  color: #ffffff;
+  outline: none;
+}
+
+.no-of-letters {
+  background-color: #ffffff;
+  color: #219a6f;
+  width: 280px;
+  padding: 7px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
